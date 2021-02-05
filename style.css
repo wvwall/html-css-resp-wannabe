@@ -50,7 +50,7 @@
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
 }
 
 /* COMMON */
@@ -70,4 +70,49 @@ img {
 
 .clear {
   clear: both;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 420px){
+  .row {
+    width: 420px;
+    margin: 0 auto;
+
+  }
+  #lezioni {
+    background-color:  #F2F2CD;
+  }
+  #lezioni .row img {
+    /* per centrare orizzontalmente */
+    display: block;
+    margin: 0 auto;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin: 0 auto;
+    width: 50%;
+    float: none;
+    padding: 0;
+  }
+  #why {
+    background-color: #F2F2CD;
+    float: none;
+  }
+  #why img {
+    width: 20%;
+    height: 20%;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    margin: 0 auto;
+    float: none;
+    width: 33%;
+    margin-top: 0;
+  }
+  #steps img {
+    width: 100%;
+    height: 100%;
+  }
 }
