@@ -127,6 +127,9 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  img {
+    height: 110px;
+  }
 }
 /* MEDIA QUERIES 768px */
 @media screen and (min-width: 421px) and (max-width:768px){
@@ -181,5 +184,8 @@ img {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 50px;
+  }
+  img {
+    height: 170px;
   }
 }
